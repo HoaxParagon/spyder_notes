@@ -1,7 +1,7 @@
 # spyder_notes
 A place for my personal notes about Spyder IDE that others may find useful.
 
-
+#### CWD:
 Spyder has this slight annoyance when restarting in that it changes the directory back to a standard 'C:\Users\USERNAME\'  
 directory everytime it restarts. Adding the following lines to your script gets around that:
 ```python
