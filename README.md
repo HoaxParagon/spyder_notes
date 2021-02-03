@@ -12,6 +12,9 @@ DIRECTORY = "YOUR DESIRED DIRECTORY PATH"
 os.chdir(DIRECTORY)
 ```
 
+If you right click on the tab with the open script in the editor and select 'set as console working directory', you can copy the  
+directory path from the top right of the window into your DIRECTORY variable and save yourself the headache.
+
 
 
 
