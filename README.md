@@ -15,7 +15,8 @@ os.chdir(DIRECTORY)
 If you right click on the tab with the open script in the editor and select 'set as console working directory', you can copy the  
 directory path from the top right of the window into your DIRECTORY variable and save yourself the headache.
 
-
+Use /#/#/#/# to enable custom selections in the outline pane.  
+	- open the outline pane with CTRL+SHIFT+O  
 
 
 
