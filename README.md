@@ -19,7 +19,7 @@ Use #### to enable custom selections in the outline pane.
 	- open the outline pane with CTRL+SHIFT+O  
 
 
-There seems to be some issue with using the console in Spyder when the script makes use of argparse. When calling script  
+ There seems to be some issue with using the console in Spyder when the script makes use of argparse. When calling script  
 with an argument specified with action='store_const', 'store_true' or 'store_false', the console hangs and nothing happens.  
 The only way around this that I've found is to call your script from outside of Spyder IDE. None of the rest of the arguments  
 will cause this issue, just an argument with 'action=' defined as a parameter to add_argument(). I've done a few hours  
@@ -27,8 +27,18 @@ worth of frustrated testing and I have come up with no better solution. It's jus
 since 5.0.0 is bugged as of this writing, is 4.2.5. My hope is that it's some underlying issue with Spyder and that it will  
 be fixed in short order.
 
+ Something to note is that in a smaller test file containing the exact argparse code that caused the issue  
+with a much larger program DIDN'T have the issue, the small test script worked. The case where the console hangs is in a large,  
+~1,500 line script, where four classes and two functions are defined above if __name__ == '__main__':. Further testing is required,  
+however I'm moving on with the project and simply calling to script with a console not related to Spyder.
 
-
+EXAMPLE:
+```python
+	parser = argparse.ArgumentParser()
+	parser.add_argument('-a', action='store') # this causes difficulties, I'm unsure why.
+```
+# calling to the script in Spyder console as follows would produce the error:
+!python script_name.py -a # upon execution, this hangs the kernel without output, no debug prints execute, console hangs.
 
 
 
