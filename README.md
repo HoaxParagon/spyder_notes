@@ -37,7 +37,7 @@ EXAMPLE:
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-a', action='store') # this causes difficulties, I'm unsure why.
 ```
-# calling to the script in Spyder console as follows would produce the error:
+\# calling to the script in Spyder console as follows would produce the error:
 !python script_name.py -a # upon execution, this hangs the kernel without output, no debug prints execute, console hangs.
 
 
