@@ -41,5 +41,5 @@ EXAMPLE:
 !python script_name.py -a # upon execution, this hangs the kernel without output, no debug prints execute, console hangs.
 
 
-This isn't specifically a Spyder IDE note. It's about anaconda. I recently learned that there's a revision system. ```conda list --revisions``` will list the available revisions, their dates and the changes made. ```conda install --revision NN``` where NN is your own revision number will let you revert changes. It will take a few minutes to prompt you with a list of changes then asks if you'd like to proceed. This hasn't really fixed my issue but it's good to know about.
+This isn't specifically a Spyder IDE note. It's about anaconda. I recently learned that there's a revision system. ```conda list --revisions``` will list the available revisions, their dates and the changes made. ```conda install --revision NN``` where NN is your own revision number will let you revert changes. It will take a few minutes to prompt you with a list of changes then asks if you'd like to proceed. Reverting back has fixed one of my issues after an update. The other one will have to wait until spyder-kernels is updated to 2.1.0 on conda forge.  
 
