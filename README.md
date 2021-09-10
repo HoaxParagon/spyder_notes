@@ -35,7 +35,7 @@ however I'm moving on with the project and simply calling to script with a conso
 EXAMPLE:
 ```python
 	parser = argparse.ArgumentParser()
-	parser.add_argument('-a', action='store') # this causes difficulties, I'm unsure why.
+	parser.add_argument('-a', action='store') # this causes difficulties, I'm unsure why. TODO: add what the difficulties are, find out, with the latest update, if this still happens.  
 ```
 \# calling to the script in Spyder console as follows would produce the error:
 !python script_name.py -a # upon execution, this hangs the kernel without output, no debug prints execute, console hangs.
@@ -45,4 +45,11 @@ This isn't specifically a Spyder IDE note. It's about anaconda. I recently learn
 
 Spider has been updated to 5. Some UI elements don't line up and the outline tab doesn't work if you restart the application but not your PC...  
 Not the best but spyder-kernals is updated to 2.10 now.  
+
+
+There's an issue with the latest version, as of 9/10/21, where the outline and the alignment markers don't show up. This can be fixed by making a change to the file, pressing  
+space and deleting it.  
+
+Also seems to be a bit of a long term stability issue with Spyder where the longer it's open the slower it gets. I can't be sure but it seems to be some memory issue.  
+I also think that there could be an issue with github desktop being open at the same time that files are being accessed.  
 
