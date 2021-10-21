@@ -57,7 +57,7 @@ I also think that there could be an issue with github desktop being open at the 
 (this video)[https://www.youtube.com/watch?v=Ul79ihg41Rs] from one of the developers is a pretty good tutorial on fixing your broken install or starting over. This isn't the first time I've had to start all over either.  
 relevent commands to start a new env are as follows:
 ```
-conda create -n {THE NAME} python=3   
+conda create -n {THE NAME} python=3 -y  
 conda activate {THE NAME}  
 conda install -y spyder  
 ```
