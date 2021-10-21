@@ -61,3 +61,12 @@ conda create -n {THE NAME} python=3 -y
 conda activate {THE NAME}  
 conda install -y spyder  
 ```
+
+For my own purposes:  
+```
+conda install -c conda-forge tensorflow -y  
+conda install -c anaconda tensorflow-gpu -y  
+pip install pause  
+conda install -c conda-forge tensorboardx  
+
+```
