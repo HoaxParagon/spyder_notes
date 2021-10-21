@@ -53,3 +53,11 @@ space and deleting it.
 Also seems to be a bit of a long term stability issue with Spyder where the longer it's open the slower it gets. I can't be sure but it seems to be some memory issue.  
 I also think that there could be an issue with github desktop being open at the same time that files are being accessed.  
 
+#### STARTING ALL OVER
+(this video)[https://www.youtube.com/watch?v=Ul79ihg41Rs] from one of the developers is a pretty good tutorial on fixing your broken install or starting over. This isn't the first time I've had to start all over either.  
+relevent commands to start a new env are as follows:
+```
+conda create -n {THE NAME} python=3   
+conda activate {THE NAME}  
+conda install -y spyder  
+```
