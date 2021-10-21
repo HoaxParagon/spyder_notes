@@ -70,5 +70,6 @@ pip install pause
 conda install -c conda-forge tensorboardx -y  
 conda install -c conda-forge matplotlib -y  
 conda install -c conda-forge mplfinance -y  
+conda install -c conda-forge opencv -y  
 
 ```
