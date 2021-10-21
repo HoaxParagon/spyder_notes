@@ -72,4 +72,5 @@ conda install -c conda-forge matplotlib -y
 conda install -c conda-forge mplfinance -y  
 conda install -c conda-forge opencv -y  
 conda install -c conda-forge ta -y  
+conda install -c conda-forge selenium -y  
 ```
