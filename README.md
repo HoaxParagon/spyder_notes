@@ -74,5 +74,6 @@ conda install -c conda-forge opencv -y
 conda install -c conda-forge ta -y  
 conda install -c conda-forge selenium -y  
 conda install -c ml4t yfinance -y  
+pip install yfinance  
 
 ```
