@@ -67,6 +67,6 @@ For my own purposes:
 conda install -c conda-forge tensorflow -y  
 conda install -c anaconda tensorflow-gpu -y  
 pip install pause  
-conda install -c conda-forge tensorboardx  
+conda install -c conda-forge tensorboardx -y  
 
 ```
