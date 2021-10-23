@@ -75,6 +75,7 @@ conda install -c conda-forge ta -y
 conda install -c conda-forge selenium -y  
 conda install -c ml4t yfinance -y  
 pip install yfinance  
-pip install wget
+pip install wget  
+conda install -c conda-forge rauth  
 
 ```
