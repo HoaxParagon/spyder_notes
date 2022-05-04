@@ -82,5 +82,6 @@ pip install wget
 conda install -c conda-forge rauth  
 conda install -c nvidia cuda
 conda install -c nvidia cuda-python
+conda install -c nvidia cuda-toolkit
 
 ```
