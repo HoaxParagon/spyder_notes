@@ -80,5 +80,6 @@ conda install -c ml4t yfinance -y
 pip install yfinance  
 pip install wget  
 conda install -c conda-forge rauth  
+conda install -c nvidia cuda
 
 ```
