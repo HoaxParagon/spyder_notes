@@ -68,7 +68,7 @@ conda install -y spyder
 For my own purposes:  
 ```
 conda install -c conda-forge tensorflow -y  
-conda install -c anaconda tensorflow-gpu -y  
+conda install -c anaconda tensorflow-gpu==2.6 -y  
 pip install pause  
 conda install -c conda-forge tensorboardx -y  
 conda install -c conda-forge matplotlib -y  
