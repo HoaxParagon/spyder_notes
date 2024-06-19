@@ -52,6 +52,10 @@ space and deleting it.
 
 Also seems to be a bit of a long term stability issue with Spyder where the longer it's open the slower it gets. I can't be sure but it seems to be some memory issue.  
 I also think that there could be an issue with github desktop being open at the same time that files are being accessed.  
+#### UPDATING  
+```conda update conda```  
+or  
+```conda update -n base -c defaults conda```  
 
 #### STARTING ALL OVER
 
